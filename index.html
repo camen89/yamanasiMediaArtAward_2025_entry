@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作品サイト</title>
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'lna6ram',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content_container">
+        <p class="name">作品タイトル</p>
+        <p class="title">パソコンとスマホが「人」の字を書いているように見えてきた</p>
+        <img class="img" src="main_visual.JPG" alt="">
+        <p class="explain">
+            本作では水が勢いよくあふれだす水槽の上にスマホとパソコン、二つの異なるデバイスが背中合わせに置かれ、それぞれ三十秒ほどの動画をループ再生している。 </p>
+        <p class="name">作者名</p>
+        <p class="artist_name">飯野匠悟・岩本真央</p>
+        <p class="name">コンセプト</p>
+        <p class="caption">
+            私たちが日頃デバイスを通じて繋がっているのは本当に本物なのか？本作はこの疑問に端を発している。これは、愛知と神奈川と離れた場所に住んでおり、連絡手段をデジタル技術に依存している私たちの置かれた状況に起因する。そしてそれは、私たちがこうした技術を無条件に信頼し使用していることへの再考を促した。本作はいわば私たちが互いの存在を独力で確認しようとする過程そのものであり、それと同時に私たちのデジタルとの距離感、「デジタル観」を示していくことになる。
+            <br>
+            <br>
+            私たちは動画データのやり取りをアナログに行った。スマホで撮影した30fpsの動画データ「動画.mp4」を一度コマごとに印刷、45枚にも及ぶ紙の束を郵送する。それをスキャンし並べ再び動画の形に戻すという行為を通して、文字通り「動画.mp4」を”送信した”。
+            作品に実際に使用された二つのデバイスは、私たちが連絡を取るのに使用していたものであり、いわば身体の延長とも見て取れる。デバイスの下で、不規則に、荒々しく上下する水面は私たちを視覚的に不安に陥れるだけではない。そこでは、デバイスと水という単に即物的な関係にとどまらず、使用者とデバイスとの間で奇妙な結びつきを保つことを強いられる。
+            <br>
+            <br>
+            作品に実際に使用された二つのデバイスは、私たちが連絡を取るのに使用していたものであり、いわば身体の延長とも見て取れる。荒々しく上下する水面はデバイスと水という即物的な関わりによって、デジタルに近づきすぎた私たちを再びアナログへと引き戻す。こうしたデジタルとアナログの絶妙なバランスは作品に共通して見ることができる。例えばデジタルでは同じファイル名のデータが共存する状況はあり得ないが、デバイス上で行われる行為をなぞった我々の制作では同じ場所に同じファイルが存在するという矛盾が発生している。あるいはアナログな視点で見ると、本来郵送したはずのデータは手元に残らない。しかし本作では送り主の手元に完璧な動画データが残ったままになっている。こうしたどちらにも寄らない曖昧な状況を作り出すことで、デジタルの恩恵を存分に受けながらも、その存在を完全に受容することのない私たちの「デジタル観」を示した。
+        </p>
+        <p class="name">作品記録映像</p>
+        <div class="youtube">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/L1EREw6ttfo?si=wx95FiVZOTkCcTvR"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <!-- <video class="record_video" src="記録.mp4" controls></video> -->
+        <p class="name">作品記録画像</p>
+        <img class="img" src="kiroku1.jpg" alt="">
+        <img class="img" src="kiroku2.JPG" alt="">
+        <img class="img" src="kiroku3.jpg" alt="">
+        <p class="name" id="process">制作過程</p>
+        <p class="process">
+            スマホで撮影した動画データをコマごとに分解、A4用紙1枚につきそれぞれ20コマを載せプリントした。
+        </p>
+        <img class="img" src="katei1.JPG" alt="">
+        <p class="process">
+            合計45枚に及ぶ紙の束をレターパックに入れ愛知県に配送した。届いたレターパックを開封、1枚ずつスキャンしパソコンに取り込んだ後、動画の形に再編集した。
+        </p>
+        <div class="img_container1">
+            <img class="img" id="img_flex1" src="katei2.png" alt="">
+            <img class="img" id="img_flex2" src="katei3.jpg" alt="">
+        </div>
+        <div class="img_container1">
+            <video class="video" src="動画.mp4" controls></video>
+            <video class="video" src="video/動画.mp4" controls></video>
+        </div>
+        <p class="process">
+            左側の動画の<a href="https://youtube.com/shorts/d0onARJxPwo?si=-WRiapSLNaK6bLf2">youtubeリンク</a>、
+            右側の動画の<a href="https://youtube.com/shorts/UUO-jtsDJdE">youtubeリンク</a>
+        </p>
+        <br>
+        <br>
+    </div>
+    <br>
+    <br>
+</body>
+
+</html>
