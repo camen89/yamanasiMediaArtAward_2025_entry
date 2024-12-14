@@ -1,0 +1,265 @@
+@charset "utf-8";
+
+p {
+    font-family: "yu-gothic-pr6n", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content_container {
+    width: 50%;
+    /* background-color: red; */
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+
+.name {
+    font-size: 13px;
+    margin: 0px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.title {
+    margin: 0px;
+    /* margin-left: 20px; */
+    font-size: 20px;
+}
+
+.explain {
+    width: 100%;
+    margin: 0px;
+    /* margin-left: 20px; */
+    font-size: 13px;
+}
+
+.artist_name {
+    margin: 0px;
+    /* margin-left: 20px; */
+    font-size: 13px;
+}
+
+.caption {
+    margin: 0px;
+    /* margin-left: 20px; */
+    font-size: 15px;
+}
+
+.youtube {
+    /* margin-left: 2.5%; */
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.record_video {
+    width: 90%;
+    margin-left: 20px;
+}
+
+.img {
+    width: 100%;
+    /* margin-left: 20px; */
+}
+
+#process {
+    margin-top: 100px;
+}
+
+.process {
+    margin: 0px;
+    /* margin-left: 20px; */
+    font-size: 15px;
+}
+
+.img_container1 {
+    width: 50%;
+    display: flex;
+}
+
+#img_flex1{
+    width: 95%;
+}
+
+#img_flex2{
+    width: 95%;
+    margin-left: 10%;
+}
+
+video {
+    margin: 5px;
+    margin-left: 5%;
+    width: 90%;
+}
+
+@media screen and (max-width: 959px) {
+
+    /* 959px以下に適用されるCSS（タブレット用） */
+    p {
+        font-family: "yu-gothic-pr6n", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .content_container {
+        width: 80%;
+        /* background-color: red; */
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+
+    .name {
+        font-size: 13px;
+        margin: 0px;
+        margin-top: 10px;
+        text-decoration: underline;
+    }
+
+    .title {
+        margin: 0px;
+        /* margin-left: 20px; */
+        font-size: 20px;
+    }
+
+    .explain {
+        width: 100%;
+        margin: 0px;
+        /* margin-left: 20px; */
+        font-size: 13px;
+    }
+
+    .artist_name {
+        margin: 0px;
+        /* margin-left: 20px; */
+        font-size: 13px;
+    }
+
+    .caption {
+        margin: 0px;
+        /* margin-left: 20px; */
+        font-size: 15px;
+    }
+
+    .youtube {
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
+
+    .record_video {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .img {
+        width: 100%;
+        /* margin-left: 20px; */
+    }
+
+    #process {
+        margin-top: 100px;
+    }
+
+    .process {
+        margin: 0px;
+        /* margin-left: 20px; */
+        font-size: 15px;
+    }
+
+    .img_container1 {
+        width: 50%;
+        display: flex;
+    }
+
+    video {
+        margin: 5px;
+        margin-left: 5%;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* 480px以下に適用されるCSS（スマホ用） */
+    p {
+        font-family: "yu-gothic-pr6n", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .content_container {
+        width: 80%;
+        /* background-color: red; */
+        position: absolute;
+        top: 5%;
+        left: 10%;
+    }
+
+    .name {
+        font-size: 13px;
+        margin: 0px;
+        margin-top: 10px;
+        text-decoration: underline;
+    }
+
+    .title {
+        margin: 0px;
+        /* margin-left: 20px; */
+        font-size: 20px;
+    }
+
+    .explain {
+        width: 100%;
+        margin: 0px;
+        /* margin-left: 20px; */
+        font-size: 13px;
+    }
+
+    .artist_name {
+        margin: 0px;
+        /* margin-left: 20px; */
+        font-size: 13px;
+    }
+
+    .caption {
+        margin: 0px;
+        /* margin-left: 20px; */
+        font-size: 15px;
+    }
+
+    .youtube {
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
+
+    .record_video {
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .img {
+        width: 100%;
+        /* margin-left: 20px; */
+    }
+
+    #process {
+        margin-top: 100px;
+    }
+
+    .process {
+        margin: 0px;
+        /* margin-left: 20px; */
+        font-size: 15px;
+    }
+
+    .img_container1 {
+        width: 50%;
+        display: flex;
+    }
+
+    video {
+        margin: 5px;
+        margin-left: 5%;
+        width: 90%;
+    }
+}
